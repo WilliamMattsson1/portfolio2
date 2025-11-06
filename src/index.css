@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
+@theme {
+    --color-bg: #000000;
+    --color-text: #ffffff;
+    --color-accent: #9b5de5;
+    --color-accent-hover: #b97eff;
+}
+
 html,
 body {
     width: 100vw;
-    background-color: black;
-    color: white;
+    background-color: var(--color-bg);
+    color: var(--color-text);
     font-family: 'Montserrat', sans-serif;
 }
 
-@theme {
-    /* Add color variables here */
-}
-
 .navbar {
-    @apply fixed w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
+    @apply w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
 
     .inner-wrapper {
         @apply flex items-center justify-between;
@@ -34,7 +37,7 @@ body {
                 @apply relative;
 
                 span {
-                    @apply transition-colors duration-300 hover:text-white;
+                    @apply transition-colors duration-300 hover:text-text;
                 }
 
                 .underline {
@@ -47,7 +50,7 @@ body {
         @apply flex;
 
         .btn-container {
-            @apply px-4 py-2 rounded-md bg-white text-black group-hover:bg-orange-400 transition-colors duration-300;
+            @apply px-4 py-2 rounded-md bg-white text-black group-hover:bg-accent transition-colors duration-300;
 
             span {
                 @apply group-hover:text-white transition-colors duration-300;
