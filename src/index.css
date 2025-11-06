@@ -67,10 +67,10 @@ section {
     }
 
     .hero-layout {
-        @apply flex flex-col items-center lg:flex-row xl:mt-0 mt-12  md:h-dvh h-[80vh] xl:items-center justify-center;
+        @apply flex flex-col items-center justify-center gap-6 lg:flex-row xl:mt-0 mx-auto mt-12  md:h-dvh h-[80vh] w-[90%];
     }
 
     .hero-text {
-        @apply flex flex-col justify-center md:text-[50px] text-[26px] font-bold;
+        @apply flex flex-col justify-center md:text-[50px] text-[26px] font-bold text-center;
     }
 }
