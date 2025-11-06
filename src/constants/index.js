@@ -13,4 +13,10 @@ const navLinks = [
     }
 ]
 
-export { navLinks }
+const roles = [
+    { text: 'Frontend Dev' },
+    { text: 'Web Designer' },
+    { text: 'QA Tester' }
+]
+
+export { navLinks, roles }

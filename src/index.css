@@ -10,51 +10,67 @@
 
 html,
 body {
-    width: 100vw;
+    width: 100dvw;
+    overflow-x: hidden;
     background-color: var(--color-bg);
+    scroll-behavior: smooth;
     color: var(--color-text);
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-    @apply w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
+section {
+    width: 100vw;
+}
 
-    .inner-wrapper {
-        @apply flex items-center justify-between;
-    }
+@layer components {
+    .navbar {
+        @apply w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
 
-    .logo {
-        @apply text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-110;
-    }
+        .inner-wrapper {
+            @apply flex items-center justify-between;
+        }
 
-    nav.desktop-nav {
-        @apply hidden lg:flex items-center;
+        .logo {
+            @apply text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-110;
+        }
 
-        ul {
-            @apply flex space-x-9;
+        nav.desktop-nav {
+            @apply hidden lg:flex items-center;
 
-            li {
-                @apply relative;
+            ul {
+                @apply flex space-x-9;
+
+                li {
+                    @apply relative;
+
+                    span {
+                        @apply transition-colors duration-300 hover:text-text;
+                    }
+
+                    .underline {
+                        @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full;
+                    }
+                }
+            }
+        }
+        .contact-btn {
+            @apply flex;
+
+            .btn-container {
+                @apply px-4 py-2 rounded-md bg-white text-black group-hover:bg-accent transition-colors duration-300;
 
                 span {
-                    @apply transition-colors duration-300 hover:text-text;
-                }
-
-                .underline {
-                    @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full;
+                    @apply group-hover:text-white transition-colors duration-300;
                 }
             }
         }
     }
-    .contact-btn {
-        @apply flex;
 
-        .btn-container {
-            @apply px-4 py-2 rounded-md bg-white text-black group-hover:bg-accent transition-colors duration-300;
+    .hero-layout {
+        @apply flex flex-col items-center lg:flex-row xl:mt-0 mt-12  md:h-dvh h-[80vh] xl:items-center justify-center;
+    }
 
-            span {
-                @apply group-hover:text-white transition-colors duration-300;
-            }
-        }
+    .hero-text {
+        @apply flex flex-col justify-center md:text-[50px] text-[26px] font-bold;
     }
 }

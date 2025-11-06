@@ -1,11 +1,11 @@
 import Navbar from './components/Navbar'
+import HeroSection from './sections/HeroSection'
 
 const App = () => {
     return (
         <main>
             <Navbar />
-            <h2 className="text-accent">Testar lalala</h2>
-            {/* Hero */}
+            <HeroSection />
             {/* Footer */}
         </main>
     )
