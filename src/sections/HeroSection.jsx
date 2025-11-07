@@ -43,7 +43,6 @@ const HeroSection = () => {
                     <img
                         src="/images/hero-code-img.png"
                         alt="image of code editor"
-                        className="xl:h-[70vh]"
                     />
                 </div>
             </div>
