@@ -7,17 +7,19 @@ const FeatureCards = () => {
                 {features.map((feature) => (
                     <div
                         key={feature.title}
-                        className="card-border rounded-xl p-8 flex flex-col gap-4 "
+                        className="card-border rounded-xl p-7 flex flex-col gap-4 "
                     >
                         <img
                             src={feature.iconPath}
                             alt={feature.title}
                             className="w-12 h-12 m-auto"
                         />
-                        <h3 className="text-center text-2xl font-medium">
+                        <h3 className="text-center text-2xl font-semibold">
                             {feature.title}
                         </h3>
-                        <p>{feature.text}</p>
+                        <p className="text-text-secondary leading-relaxed">
+                            {feature.text}
+                        </p>
                     </div>
                 ))}
             </div>

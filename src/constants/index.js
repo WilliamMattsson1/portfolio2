@@ -24,14 +24,14 @@ const features = [
         iconPath: '/icons/featureCard1.png',
         title: 'Teamwork',
         text: `
-            Jag trivs i agila team och har erfarenhet av samarbete genom Scrum och sprintarbete på Safello. Kommunikation och struktur är alltid i fokus.
+            Jag trivs i agila team och har erfarenhet av Scrum och sprintarbete på Safello. Kommunikation är alltid i fokus.
         `
     },
     {
         iconPath: '/icons/featureCard2.png',
         title: 'Kvalitet',
         text: `
-                Med bakgrund inom QA testar jag noggrant och tänker på kvalitet redan i utvecklingsfasen. Jag bygger hellre rätt från början.
+                Med bakgrund inom QA testar jag noggrant och tänker på kvalitet redan under planering. Jag bygger hellre rätt från början.
             `
     },
     {
