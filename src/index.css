@@ -67,7 +67,7 @@ section {
     }
 
     .hero-layout {
-        @apply flex flex-col items-center justify-center gap-6 lg:flex-row xl:mt-0 mx-auto mt-0  md:h-dvh h-[80vh] w-[90%];
+        @apply flex flex-col items-center justify-center gap-6 lg:flex-row xl:mt-0 mx-auto mt-4 h-[80vh] md:h-[88vh] w-[90%];
     }
 
     .hero-text {
