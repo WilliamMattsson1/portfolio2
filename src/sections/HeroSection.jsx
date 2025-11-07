@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <section id="hero">
             <div className="hero-layout">
-                <div className="text-section flex flex-1 flex-col">
+                <div className="text-section flex md:flex-1 flex-col">
                     <div className="hero-text ">
                         <p className="text-[34px] font-normal ">
                             Hey, <span className="text-accent">I'm</span>
@@ -24,6 +24,7 @@ const HeroSection = () => {
                                 speed={30}
                                 style={{
                                     fontSize: '40px',
+                                    fontWeight: '500',
                                     display: 'inline-block'
                                 }}
                             />
@@ -39,7 +40,7 @@ const HeroSection = () => {
                     </a>
                 </div>
 
-                <div className="right-side flex-1">
+                <div className="right-side hidden md:flex flex-1">
                     <img
                         src="/images/hero-code-img.png"
                         alt="image of code editor"
