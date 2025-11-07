@@ -10,8 +10,8 @@
 
 html,
 body {
-    width: 100dvw;
-    overflow-x: hidden;
+    width: 100%;
+    /* overflow-x: hidden; */
     background-color: var(--color-bg);
     scroll-behavior: smooth;
     color: var(--color-text);
@@ -19,12 +19,12 @@ body {
 }
 
 section {
-    width: 100vw;
+    width: 100%;
 }
 
 @layer components {
     .navbar {
-        @apply w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
+        @apply sticky top-0 w-full py-5 px-4 md:px-20 z-100 transition-all duration-300 ease-in-out;
 
         .inner-wrapper {
             @apply flex items-center justify-between;
