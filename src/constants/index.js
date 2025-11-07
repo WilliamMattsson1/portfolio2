@@ -22,29 +22,23 @@ const roles = [
 const features = [
     {
         iconPath: '/icons/featureCard1.png',
-        title: 'Teamwork & Agilt samarbete',
+        title: 'Teamwork',
         text: `
-            Jag trivs i team där man delar idéer, testar snabbt och lär sig tillsammans.
-            Under min tid på Safello arbetade jag i ett agilt utvecklingsteam,
-            där jag lärde mig vikten av tydlig kommunikation, att ge och ta feedback,
-            och att hela tiden iterera för att nå bästa resultat.
+            Jag trivs i agila team och har erfarenhet av samarbete genom Scrum och sprintarbete på Safello. Kommunikation och struktur är alltid i fokus.
         `
     },
     {
         iconPath: '/icons/featureCard2.png',
-        title: 'Kvalitet & Detaljfokus',
+        title: 'Kvalitet',
         text: `
-                Som tidigare QA-testare har jag ett naturligt kvalitetstänk redan från första kodraden.
-                Jag ser till att grunden är stabil, att funktioner testas noggrant och att användarupplevelsen
-                håller hög standard, både i kod och design.`
+                Med bakgrund inom QA testar jag noggrant och tänker på kvalitet redan i utvecklingsfasen. Jag bygger hellre rätt från början.
+            `
     },
     {
         iconPath: '/icons/featureCard3.png',
-        title: 'Kreativitet & Designkänsla',
+        title: 'Kreativitet',
         text: `
-            Jag gillar att skapa användarvänliga och visuellt tilltalande gränssnitt.
-            Med erfarenhet av webbdesign och Figma försöker jag alltid hitta balansen mellan
-            funktion och estetik, och bygga lösningar som känns både snygga och intuitiva.
+            Jag gillar att skapa snygga, användarvänliga gränssnitt och tänker alltid på detaljerna som gör upplevelsen bättre.
         `
     }
 ]
