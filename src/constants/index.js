@@ -43,4 +43,56 @@ const features = [
     }
 ]
 
-export { navLinks, roles, features }
+const projects = [
+    {
+        title: 'Williams Clothing',
+        thumbnail: 'images/projectImages/clothing-crossPlattform.png',
+        stack: [
+            'Fullstack',
+            'React',
+            'TypeScript',
+            'Node.js',
+            'Express',
+            'SQLite'
+        ],
+        githubUrl: 'https://github.com/WilliamMattsson1/ecom-fullstack',
+        liveUrl: 'https://ecom-fullstack-pxw8.onrender.com/'
+    },
+    {
+        title: 'Coincheck',
+        thumbnail: '/images/projectImages/coincheck-corssPlatform.png',
+        stack: ['Vue.js', 'Vite', 'Bootstrap', 'API', 'Chart.js', 'SPA'],
+        githubUrl: 'https://github.com/WilliamMattsson1/Labb1Vue',
+        liveUrl: 'https://coincheck.netlify.app/'
+    },
+    {
+        title: 'Coincompass',
+        thumbnail: '/images/projectImages/coincompass-crossPlattform.png',
+        stack: ['Vue.js', 'TypeScript', 'Group Project', 'Agile'],
+        githubUrl: 'https://github.com/ITHS-Team8/CoinCompass',
+        liveUrl: 'https://coincompass.netlify.app/'
+    },
+    {
+        title: 'Williams Recipes',
+        thumbnail: '/images/projectImages/williams-recipes-crossPlattform.png',
+        stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic', 'API', 'JSON Server'],
+        githubUrl: 'https://github.com/WilliamMattsson1/williams-recipes',
+        liveUrl: 'https://williamsrecipes.netlify.app/'
+    },
+    {
+        title: 'Blackjack',
+        thumbnail: '/images/projectImages/blackjack-crossPlattform.png',
+        stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic'],
+        githubUrl: 'https://github.com/WilliamMattsson1/black-jack',
+        liveUrl: 'https://beatdealer.netlify.app/'
+    },
+    {
+        title: 'Work C',
+        thumbnail: '/images/projectImages/workc-crossPlattform.png',
+        stack: ['HTML', 'CSS', 'JavaScript', 'Design'],
+        githubUrl: 'https://github.com/WilliamMattsson1/cwork-project',
+        liveUrl: 'https://workc.netlify.app/'
+    }
+]
+
+export { navLinks, roles, features, projects }
