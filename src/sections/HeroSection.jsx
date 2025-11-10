@@ -35,7 +35,7 @@ const HeroSection = () => {
                         className="bg-accent w-fit py-2 px-4 mx-auto mt-4 rounded-md hover:bg-accent-hover"
                     >
                         <div className="btn-container ">
-                            <span>See my work</span>
+                            <span className="font-medium">See my work</span>
                         </div>
                     </a>
                 </div>
