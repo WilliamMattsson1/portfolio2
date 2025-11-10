@@ -71,12 +71,12 @@ const ShowcaseSection = () => {
                                         </p>
                                     </div>
 
-                                    <div className="flex gap-4 mt-4">
+                                    <div className="flex gap-5 mt-4">
                                         <a
                                             href={project.liveUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex-1 text-center font-medium bg-accent border-accent rounded-md py-2 hover:bg-accent-hover transition-colors cursor-pointer"
+                                            className="flex-1 text-center font-medium bg-accent border-accent rounded-md py-3 hover:bg-accent-hover transition-colors cursor-pointer"
                                         >
                                             Visit
                                         </a>
@@ -84,7 +84,7 @@ const ShowcaseSection = () => {
                                             href={project.githubUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex-1 text-center font-medium border border-white rounded-md py-2 hover:bg-accent/70 hover:border-accent/70 transition-colors cursor-pointer"
+                                            className="flex-1 text-center font-medium border border-white rounded-md py-3 hover:bg-accent/70 hover:border-accent/70 transition-colors cursor-pointer"
                                         >
                                             GitHub
                                         </a>
