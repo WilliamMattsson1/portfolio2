@@ -24,21 +24,21 @@ const features = [
         iconPath: '/icons/featureCard1.png',
         title: 'Teamwork',
         text: `
-            Jag trivs i agila team och har erfarenhet av Scrum och sprintarbete på Safello. Kommunikation är alltid i fokus.
+            I enjoy working in agile teams and have experience with Scrum and sprint planning at Safello. Communication is always key.
         `
     },
     {
         iconPath: '/icons/featureCard2.png',
-        title: 'Kvalitet',
+        title: 'Quality',
         text: `
-                Med bakgrund inom QA testar jag noggrant och tänker på kvalitet redan under planering. Jag bygger hellre rätt från början.
-            `
+            With a background in QA, I test thoroughly and focus on quality from the start. I prefer building things right the first time.
+        `
     },
     {
         iconPath: '/icons/featureCard3.png',
-        title: 'Kreativitet',
+        title: 'Creativity',
         text: `
-            Jag gillar att skapa snygga, användarvänliga gränssnitt och tänker alltid på detaljerna som gör upplevelsen bättre.
+            I love designing clean, user-friendly interfaces and always focus on the small details that enhance the experience.
         `
     }
 ]
