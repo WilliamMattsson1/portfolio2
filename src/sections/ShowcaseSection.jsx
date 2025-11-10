@@ -5,6 +5,15 @@ import { projects } from '../constants'
 const ShowcaseSection = () => {
     const [activeTab, setActiveTab] = useState('projects')
 
+    const formatStack = (stackArray) => {
+        return stackArray.map((tech, index) => (
+            <span key={index}>
+                {tech}
+                {index < stackArray.length - 1 ? ' | ' : ''}
+            </span>
+        ))
+    }
+
     return (
         <section id="projects" className="my-22 w-[90%] mx-auto">
             {/* Header */}
@@ -57,8 +66,8 @@ const ShowcaseSection = () => {
                                         <h3 className="text-2xl font-semibold mb-2 text-accent text-center">
                                             {project.title}
                                         </h3>
-                                        <p className="text-sm text-text/80 font-medium">
-                                            {project.stack}
+                                        <p className="text-sm text-text/80 font-medium text-center">
+                                            {formatStack(project.stack)}
                                         </p>
                                     </div>
 
