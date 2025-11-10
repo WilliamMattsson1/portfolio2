@@ -1,5 +1,4 @@
 import Navbar from './components/Navbar'
-import SectionHeader from './components/SectioHeader'
 import FeatureCards from './sections/FeatureCards'
 import HeroSection from './sections/HeroSection'
 import ShowcaseSection from './sections/ShowcaseSection'

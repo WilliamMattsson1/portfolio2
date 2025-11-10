@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SectionHeader from '../components/SectioHeader'
+import SectionHeader from '../components/SectionHeader'
 import { projects } from '../constants'
 
 const ShowcaseSection = () => {
