@@ -3,6 +3,7 @@ import SectionHeader from '../components/SectionHeader'
 import { projects, showcaseTabs } from '../constants'
 import ShowcaseTabs from '../components/ShowcaseTabs'
 import ProjectCard from '../components/ProjectCard'
+import Techstack from '../components/Techstack'
 
 const ShowcaseSection = () => {
     const [activeTab, setActiveTab] = useState('projects')
@@ -33,11 +34,7 @@ const ShowcaseSection = () => {
                         ))}
                     </div>
                 ) : (
-                    <div className="flex flex-wrap justify-center gap-6">
-                        <p className="text-text-secondary">
-                            Tech stack section coming soon
-                        </p>
-                    </div>
+                    <Techstack />
                 )}
             </div>
         </section>

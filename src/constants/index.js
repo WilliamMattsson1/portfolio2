@@ -1,5 +1,20 @@
 import { Code, Wrench } from 'lucide-react'
 
+import {
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
+    SiTypescript,
+    SiReact,
+    SiNodedotjs,
+    SiWordpress,
+    SiFigma,
+    SiMysql
+} from 'react-icons/si'
+import { FaVuejs } from 'react-icons/fa6'
+import { RiNextjsFill } from 'react-icons/ri'
+import { FaGitAlt } from 'react-icons/fa'
+
 const navLinks = [
     {
         name: 'Work',
@@ -113,4 +128,19 @@ const projects = [
     } */
 ]
 
-export { navLinks, roles, features, showcaseTabs, projects }
+const techStack = [
+    { name: 'HTML', icon: SiHtml5 },
+    { name: 'CSS', icon: SiCss3 },
+    { name: 'JavaScript', icon: SiJavascript },
+    { name: 'TypeScript', icon: SiTypescript },
+    { name: 'React', icon: SiReact },
+    { name: 'Next.js', icon: RiNextjsFill },
+    { name: 'Vue', icon: FaVuejs },
+    { name: 'Node.js', icon: SiNodedotjs },
+    { name: 'WordPress', icon: SiWordpress },
+    { name: 'Figma', icon: SiFigma },
+    { name: 'SQL', icon: SiMysql },
+    { name: 'Git', icon: FaGitAlt }
+]
+
+export { navLinks, roles, features, showcaseTabs, projects, techStack }
