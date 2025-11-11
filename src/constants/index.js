@@ -53,7 +53,7 @@ const showcaseTabs = [
 const projects = [
     {
         title: 'Williams Clothing',
-        thumbnail: 'images/projectImages/clothing-crossPlattform.png',
+        thumbnail: 'images/projectImages/williamsclothing-thumbnail.png',
         stack: [
             'Fullstack',
             'React',
@@ -67,26 +67,29 @@ const projects = [
     },
     {
         title: 'Coincheck',
-        thumbnail: '/images/projectImages/coincheck-corssPlatform.png',
+        thumbnail: '/images/projectImages/coin-check-thumbnail.png',
         stack: ['Vue.js', 'Vite', 'Bootstrap', 'API', 'Chart.js', 'SPA'],
         githubUrl: 'https://github.com/WilliamMattsson1/Labb1Vue',
         liveUrl: 'https://coincheck.netlify.app/'
     },
     {
         title: 'Coincompass',
-        thumbnail: '/images/projectImages/coincompass-crossPlattform.png',
+
+        thumbnail: '/images/projectImages/coin-compass-thumbnail.png',
         stack: ['Vue.js', 'TypeScript', 'Group Project', 'Agile'],
         githubUrl: 'https://github.com/ITHS-Team8/CoinCompass',
         liveUrl: 'https://coincompass.netlify.app/'
     },
     {
         title: 'Williams Recipes',
-        thumbnail: '/images/projectImages/williams-recipes-crossPlattform.png',
+        thumbnail: '/images/projectImages/williamsrecipes-thumbnail.png',
         stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic', 'API', 'JSON Server'],
         githubUrl: 'https://github.com/WilliamMattsson1/williams-recipes',
         liveUrl: 'https://williamsrecipes.netlify.app/'
-    },
-    {
+    }
+
+    // Old projects
+    /*  {
         title: 'Blackjack',
         thumbnail: '/images/projectImages/blackjack-crossPlattform.png',
         stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic'],
@@ -99,7 +102,7 @@ const projects = [
         stack: ['HTML', 'CSS', 'JavaScript', 'Design'],
         githubUrl: 'https://github.com/WilliamMattsson1/cwork-project',
         liveUrl: 'https://workc.netlify.app/'
-    }
+    } */
 ]
 
 export { navLinks, roles, features, showcaseTabs, projects }
