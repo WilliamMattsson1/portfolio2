@@ -2,12 +2,12 @@
 @import 'tailwindcss';
 
 @theme {
-    --color-bg: #000000;
+    --color-bg: #0e0f11;
     --color-text: #ffffff;
-    --color-text-secondary: #e0e0e0;
+    --color-text-secondary: #b1b1b1;
     --color-accent: #9b5de5;
     --color-accent-hover: #b97eff;
-    --color-card: #0e0e10;
+    --color-card: #1a1b1e;
 }
 
 html,

@@ -29,8 +29,8 @@ const ShowcaseSection = () => {
                     onClick={() => setActiveTab('projects')}
                     className={`px-6 py-2 md:py-3 font-medium rounded-sm ${
                         activeTab === 'projects'
-                            ? 'bg-accent '
-                            : 'bg-card hover:bg-accent/70 '
+                            ? 'bg-accent/50 '
+                            : 'bg-card hover:bg-accent/40 '
                     }`}
                 >
                     Projects
@@ -39,8 +39,8 @@ const ShowcaseSection = () => {
                     onClick={() => setActiveTab('tech')}
                     className={`px-6 py-2 md:py-3 font-medium rounded-md ${
                         activeTab === 'tech'
-                            ? 'bg-accent '
-                            : 'bg-card  hover:bg-accent/70'
+                            ? 'bg-accent/50 '
+                            : 'bg-card  hover:bg-accent/40'
                     }`}
                 >
                     Tech Stack
