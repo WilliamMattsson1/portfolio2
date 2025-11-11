@@ -15,7 +15,7 @@ const ShowcaseSection = () => {
     }
 
     return (
-        <section id="projects" className="my-22 w-[90%] mx-auto">
+        <section id="projects" className="mt-30 w-[90%] mx-auto">
             {/* Header */}
             <SectionHeader
                 title="Projects & Experience"
@@ -24,18 +24,18 @@ const ShowcaseSection = () => {
             />
 
             {/* Tabs */}
-            <div className="flex border card-border rounded-xl w-fit mx-auto mt-6 p-3 bg-card gap-3">
+            <div className="flex border card-border rounded-xl w-fit mx-auto mt-5 md:mt-10 p-3 bg-card gap-3">
                 {showcaseTabs.map((tab) => {
                     const Icon = tab.icon
                     return (
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`flex flex-col items-center gap-0 px-18 py-3 md:py-3  rounded-lg font-medium transition-colors
+                            className={`flex flex-col items-center gap-0 px-8 md:px-18 py-2 md:py-3  rounded-lg font-medium transition-colors
                 ${
                     activeTab === tab.id
                         ? 'bg-accent/20 text-white'
-                        : 'bg-card hover:bg-accent/10 text-text/90'
+                        : 'bg-card hover:cursor-pointer hover:bg-accent/10 text-text/90'
                 }`}
                         >
                             <span
@@ -63,9 +63,9 @@ const ShowcaseSection = () => {
             </div>
 
             {/* Tab content */}
-            <div className="mt-6">
+            <div className="mt-12">
                 {activeTab === 'projects' ? (
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[90%] mx-auto">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-[90%] mx-auto">
                         {projects.map((project) => (
                             <div
                                 key={project.title}
@@ -74,14 +74,14 @@ const ShowcaseSection = () => {
                                 <img
                                     src={project.thumbnail}
                                     alt={project.title}
-                                    className="h-full w-full"
+                                    className="h-full w-full max-h-90"
                                 />
                                 <div className="p-6 flex flex-col justify-between">
                                     <div>
-                                        <h3 className="text-2xl font-semibold mb-2 text-accent text-center">
+                                        <h3 className="text-2xl font-semibold mb-2  text-center">
                                             {project.title}
                                         </h3>
-                                        <p className="text-sm text-text/80 font-medium text-center">
+                                        <p className="text-md text-text/80 font-light text-center">
                                             {formatStack(project.stack)}
                                         </p>
                                     </div>

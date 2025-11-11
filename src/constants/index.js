@@ -68,7 +68,15 @@ const projects = [
     {
         title: 'Coincheck',
         thumbnail: '/images/projectImages/coin-check-thumbnail.png',
-        stack: ['Vue.js', 'Vite', 'Bootstrap', 'API', 'Chart.js', 'SPA'],
+        stack: [
+            'Vue.js',
+            'Vite',
+            'Bootstrap',
+            'API',
+            'Chart.js',
+            'SPA',
+            'Design'
+        ],
         githubUrl: 'https://github.com/WilliamMattsson1/Labb1Vue',
         liveUrl: 'https://coincheck.netlify.app/'
     },
@@ -76,7 +84,7 @@ const projects = [
         title: 'Coincompass',
 
         thumbnail: '/images/projectImages/coin-compass-thumbnail.png',
-        stack: ['Vue.js', 'TypeScript', 'Group Project', 'Agile'],
+        stack: ['Fullstack', 'Vue.js', 'TypeScript', 'Group Project', 'Agile'],
         githubUrl: 'https://github.com/ITHS-Team8/CoinCompass',
         liveUrl: 'https://coincompass.netlify.app/'
     },
