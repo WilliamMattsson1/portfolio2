@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import SectionHeader from '../components/SectionHeader'
-import { projects } from '../constants'
+import { projects, showcaseTabs } from '../constants'
 
 const ShowcaseSection = () => {
     const [activeTab, setActiveTab] = useState('projects')
@@ -24,27 +24,42 @@ const ShowcaseSection = () => {
             />
 
             {/* Tabs */}
-            <div className="flex border card-border rounded-xl overflow-hidden w-fit mx-auto mt-6 p-3 bg-card gap-3">
-                <button
-                    onClick={() => setActiveTab('projects')}
-                    className={`px-6 py-2 md:py-3 font-medium rounded-sm ${
-                        activeTab === 'projects'
-                            ? 'bg-accent/50 '
-                            : 'bg-card hover:bg-accent/40 '
-                    }`}
-                >
-                    Projects
-                </button>
-                <button
-                    onClick={() => setActiveTab('tech')}
-                    className={`px-6 py-2 md:py-3 font-medium rounded-md ${
-                        activeTab === 'tech'
-                            ? 'bg-accent/50 '
-                            : 'bg-card  hover:bg-accent/40'
-                    }`}
-                >
-                    Tech Stack
-                </button>
+            <div className="flex border card-border rounded-xl w-fit mx-auto mt-6 p-3 bg-card gap-3">
+                {showcaseTabs.map((tab) => {
+                    const Icon = tab.icon
+                    return (
+                        <button
+                            key={tab.id}
+                            onClick={() => setActiveTab(tab.id)}
+                            className={`flex flex-col items-center gap-0 px-18 py-3 md:py-3  rounded-lg font-medium transition-colors
+                ${
+                    activeTab === tab.id
+                        ? 'bg-accent/20 text-white'
+                        : 'bg-card hover:bg-accent/10 text-text/90'
+                }`}
+                        >
+                            <span
+                                className={`text-lg transition-colors ${
+                                    activeTab === tab.id
+                                        ? 'text-accent'
+                                        : 'text-text/70'
+                                }`}
+                            >
+                                <Icon
+                                    className={
+                                        activeTab === tab.id
+                                            ? 'text-accent'
+                                            : ''
+                                    }
+                                    size={18}
+                                />
+                            </span>
+                            <span className="text-sm md:text-base">
+                                {tab.label}
+                            </span>
+                        </button>
+                    )
+                })}
             </div>
 
             {/* Tab content */}

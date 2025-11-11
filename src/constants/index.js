@@ -1,3 +1,5 @@
+import { Code, Wrench } from 'lucide-react'
+
 const navLinks = [
     {
         name: 'Work',
@@ -41,6 +43,11 @@ const features = [
             I love designing clean, user-friendly interfaces and always focus on the small details that enhance the experience.
         `
     }
+]
+
+const showcaseTabs = [
+    { id: 'projects', label: 'Projects', icon: Code },
+    { id: 'tech', label: 'Tech Stack', icon: Wrench }
 ]
 
 const projects = [
@@ -95,4 +102,4 @@ const projects = [
     }
 ]
 
-export { navLinks, roles, features, projects }
+export { navLinks, roles, features, showcaseTabs, projects }
