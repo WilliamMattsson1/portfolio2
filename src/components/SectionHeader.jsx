@@ -3,7 +3,7 @@ const SectionHeader = ({ title, sub, highlightWord }) => {
         if (word === highlightWord) {
             return (
                 <span key={index} className="text-accent">
-                    {word}
+                    {word}{' '}
                 </span>
             )
         }
