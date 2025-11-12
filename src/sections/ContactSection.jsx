@@ -1,13 +1,55 @@
 import SectionHeader from '../components/SectionHeader'
+import { SiLinkedin, SiGmail } from 'react-icons/si'
+
+const contacts = [
+    {
+        name: 'Email',
+        icon: SiGmail,
+        url: 'mailto:wmattsson@hotmail.com'
+    },
+    {
+        name: 'LinkedIn',
+        icon: SiLinkedin,
+        url: 'https://www.linkedin.com/in/williammattsson/'
+    }
+]
 
 const ContactSection = () => {
     return (
-        <section id="contact" className="mx-auto">
+        <section id="contact" className="mx-auto mt-30 w-[90%]">
             <SectionHeader
-                title="Contact me"
+                title="Contact Me"
                 highlightWord="Contact"
                 sub="Feel free to reach out for projects"
             />
+
+            <p className="text-text-secondary bg-card p-8 text-center max-w-2xl mx-auto mt-8 rounded-xl card-border">
+                Are you in search of a talented frontend developer to bring your
+                ideas to life? Look no further! I'm William, and I specialize in
+                crafting engaging and user-friendly web applications.
+            </p>
+
+            <div className="flex justify-center gap-6 bg-card card-border max-w-fit mx-auto rounded-xl p-6 mt-10">
+                {contacts.map((contact) => {
+                    const Icon = contact.icon
+                    return (
+                        <a
+                            key={contact.name}
+                            href={contact.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 border border-accent px-6 py-4 rounded-lg shadow-md hover:shadow-xl hover:ring-1 hover:ring-accent transition-all duration-300"
+                        >
+                            <Icon size={28} className="text-accent" />
+                            <span className="text-text font-medium">
+                                {contact.name}
+                            </span>
+                        </a>
+                    )
+                })}
+            </div>
+
+            <div className="w-58 h-1 bg-accent rounded-full mx-auto mt-8 mb-8"></div>
         </section>
     )
 }
