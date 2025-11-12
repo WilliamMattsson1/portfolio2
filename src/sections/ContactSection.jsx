@@ -1,18 +1,5 @@
 import SectionHeader from '../components/SectionHeader'
-import { SiLinkedin, SiGmail } from 'react-icons/si'
-
-const contacts = [
-    {
-        name: 'Email',
-        icon: SiGmail,
-        url: 'mailto:wmattsson@hotmail.com'
-    },
-    {
-        name: 'LinkedIn',
-        icon: SiLinkedin,
-        url: 'https://www.linkedin.com/in/williammattsson/'
-    }
-]
+import { contactLinks } from '../constants'
 
 const ContactSection = () => {
     return (
@@ -30,7 +17,7 @@ const ContactSection = () => {
             </p>
 
             <div className="flex justify-center gap-6 bg-card card-border max-w-fit mx-auto rounded-xl p-6 mt-10">
-                {contacts.map((contact) => {
+                {contactLinks.map((contact) => {
                     const Icon = contact.icon
                     return (
                         <a

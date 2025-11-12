@@ -15,6 +15,8 @@ import { FaVuejs } from 'react-icons/fa6'
 import { RiNextjsFill } from 'react-icons/ri'
 import { FaGitAlt } from 'react-icons/fa'
 
+import { SiLinkedin, SiGmail } from 'react-icons/si'
+
 const navLinks = [
     {
         name: 'Work',
@@ -143,4 +145,25 @@ const techStack = [
     { name: 'Git', icon: FaGitAlt }
 ]
 
-export { navLinks, roles, features, showcaseTabs, projects, techStack }
+const contactLinks = [
+    {
+        name: 'Email',
+        icon: SiGmail,
+        url: 'mailto:wmattsson@hotmail.com'
+    },
+    {
+        name: 'LinkedIn',
+        icon: SiLinkedin,
+        url: 'https://www.linkedin.com/in/williammattsson/'
+    }
+]
+
+export {
+    navLinks,
+    roles,
+    features,
+    showcaseTabs,
+    projects,
+    techStack,
+    contactLinks
+}
