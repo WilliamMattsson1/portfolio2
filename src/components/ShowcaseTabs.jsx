@@ -3,6 +3,7 @@ const ShowcaseTabs = ({ tabs, activeTab, setActiveTab }) => (
         {tabs.map((tab) => {
             const Icon = tab.icon
             const isActive = activeTab === tab.id
+
             return (
                 <button
                     key={tab.id}
@@ -21,7 +22,7 @@ const ShowcaseTabs = ({ tabs, activeTab, setActiveTab }) => (
                     >
                         <Icon
                             className={isActive ? 'text-accent' : ''}
-                            size={18}
+                            size={20}
                         />
                     </span>
                     <span className="text-sm md:text-base">{tab.label}</span>
