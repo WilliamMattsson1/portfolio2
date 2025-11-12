@@ -9,7 +9,7 @@ const Techstack = () => {
                     return (
                         <div
                             key={tech.name}
-                            className="bg-card w-36 h-36 flex flex-col items-center justify-center rounded-lg shadow-md hover:scale-105 transition-all duration-300"
+                            className="bg-card card-border w-36 h-36 flex flex-col items-center justify-center rounded-lg shadow-md hover:scale-105 transition-all duration-300"
                         >
                             <Icon size={46} className="mb-4 text-accent" />
                             <span className="text-md text-text font-medium">
