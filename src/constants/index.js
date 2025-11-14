@@ -19,16 +19,16 @@ import { SiLinkedin, SiGmail } from 'react-icons/si'
 
 const navLinks = [
     {
-        name: 'Work',
+        name: 'Home',
         link: '#hero'
-    },
-    {
-        name: 'Projects',
-        link: '#projects'
     },
     {
         name: 'Skills',
         link: '#skills'
+    },
+    {
+        name: 'Projects',
+        link: '#projects'
     }
 ]
 

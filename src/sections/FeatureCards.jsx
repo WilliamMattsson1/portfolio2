@@ -2,7 +2,7 @@ import { features } from '../constants'
 
 const FeatureCards = () => {
     return (
-        <div id="skills" className="w-[90%] padding-x-lg m-auto">
+        <section id="skills" className="max-w-[90%] padding-x-lg m-auto">
             <div className="mx-auto mt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mt-0 gap-8">
                 {features.map((feature) => (
                     <div
@@ -23,7 +23,7 @@ const FeatureCards = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
 

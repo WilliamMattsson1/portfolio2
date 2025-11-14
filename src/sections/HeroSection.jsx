@@ -15,7 +15,7 @@ const HeroSection = () => {
                             <span className="text-accent">William</span>{' '}
                             Mattsson
                         </h1>
-                        <p className="text-[36px]  font-semibold">
+                        <p className="text-[28px] md:text-[40px]  font-semibold">
                             <TypeAnimation
                                 sequence={sequence}
                                 wrapper="span"
@@ -23,7 +23,6 @@ const HeroSection = () => {
                                 repeat={4}
                                 speed={30}
                                 style={{
-                                    fontSize: '40px',
                                     fontWeight: '500',
                                     display: 'inline-block'
                                 }}
