@@ -16,7 +16,7 @@ const ContactSection = () => {
                 crafting engaging and user-friendly web applications.
             </p>
 
-            <div className="flex justify-center gap-3 md:gap-6 bg-card card-border max-w-fit mx-auto rounded-xl p-4 md:p-6 mt-10">
+            <div className="flex justify-center gap-3 md:gap-4 bg-card card-border max-w-fit mx-auto rounded-xl p-4 md:p-6 mt-6">
                 {contactLinks.map((contact) => {
                     const Icon = contact.icon
                     return (
@@ -25,7 +25,7 @@ const ContactSection = () => {
                             href={contact.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-3 border border-accent px-6 py-4 rounded-lg shadow-md hover:shadow-xl hover:ring-1 hover:ring-accent transition-all duration-300"
+                            className="flex items-center gap-3 border border-accent px-4 py-4 rounded-lg shadow-md hover:shadow-xl hover:ring-1 hover:ring-accent transition-all duration-300"
                         >
                             <Icon size={28} className="text-accent" />
                             <span className="text-text font-medium">
@@ -36,7 +36,7 @@ const ContactSection = () => {
                 })}
             </div>
 
-            <div className="w-58 h-1 bg-accent rounded-full mx-auto mt-8 mb-8"></div>
+            <div className="w-60 h-1 bg-accent rounded-full mx-auto mt-8 mb-8"></div>
         </section>
     )
 }

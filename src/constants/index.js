@@ -108,7 +108,7 @@ const projects = [
     {
         title: 'Williams Recipes',
         thumbnail: '/images/projectImages/williamsrecipes-thumbnail.png',
-        stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic', 'API', 'JSON Server'],
+        stack: ['Javascript', 'CSS', 'HTML', 'Dynamic', 'API', 'JSON Server'],
         githubUrl: 'https://github.com/WilliamMattsson1/williams-recipes',
         liveUrl: 'https://williamsrecipes.netlify.app/'
     }
