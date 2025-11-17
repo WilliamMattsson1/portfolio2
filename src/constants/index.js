@@ -74,7 +74,7 @@ const projects = [
         stack: [
             'Fullstack',
             'React',
-            'TypeScript',
+            'Typescript',
             'Node.js',
             'Express',
             'SQLite'
@@ -101,7 +101,7 @@ const projects = [
         title: 'Coincompass',
 
         thumbnail: '/images/projectImages/coin-compass-thumbnail.png',
-        stack: ['Fullstack', 'Vue.js', 'TypeScript', 'Group Project', 'Agile'],
+        stack: ['Fullstack', 'Vue.js', 'Typescript', 'Group Project', 'Agile'],
         githubUrl: 'https://github.com/ITHS-Team8/CoinCompass',
         liveUrl: 'https://coincompass.netlify.app/'
     },
@@ -117,14 +117,14 @@ const projects = [
     /*  {
         title: 'Blackjack',
         thumbnail: '/images/projectImages/blackjack-crossPlattform.png',
-        stack: ['JavaScript', 'CSS', 'HTML', 'Dynamic'],
+        stack: ['Javascript', 'CSS', 'HTML', 'Dynamic'],
         githubUrl: 'https://github.com/WilliamMattsson1/black-jack',
         liveUrl: 'https://beatdealer.netlify.app/'
     },
     {
         title: 'Work C',
         thumbnail: '/images/projectImages/workc-crossPlattform.png',
-        stack: ['HTML', 'CSS', 'JavaScript', 'Design'],
+        stack: ['HTML', 'CSS', 'Javascript', 'Design'],
         githubUrl: 'https://github.com/WilliamMattsson1/cwork-project',
         liveUrl: 'https://workc.netlify.app/'
     } */
@@ -133,8 +133,8 @@ const projects = [
 const techStack = [
     { name: 'HTML', icon: SiHtml5 },
     { name: 'CSS', icon: SiCss3 },
-    { name: 'JavaScript', icon: SiJavascript },
-    { name: 'TypeScript', icon: SiTypescript },
+    { name: 'Javascript', icon: SiJavascript },
+    { name: 'Typescript', icon: SiTypescript },
     { name: 'React', icon: SiReact },
     { name: 'Next.js', icon: RiNextjsFill },
     { name: 'Vue', icon: FaVuejs },
