@@ -22,6 +22,7 @@ body {
 
 section {
     width: 100%;
+    max-width: 1600px;
     scroll-margin-top: 90px;
 }
 

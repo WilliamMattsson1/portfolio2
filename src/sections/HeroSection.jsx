@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 const HeroSection = () => {
     const sequence = roles.flatMap((role) => [role.text, 2000])
     return (
-        <section id="hero">
+        <section id="hero" className="m-auto">
             <div className="hero-layout">
                 <div className="text-section flex md:flex-1 flex-col">
                     <div className="hero-text ">

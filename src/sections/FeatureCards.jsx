@@ -3,7 +3,7 @@ import { features } from '../constants'
 const FeatureCards = () => {
     return (
         <section id="skills" className="max-w-[90%] padding-x-lg m-auto">
-            <div className="mx-auto mt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mt-0 gap-8">
+            <div className="mx-auto mt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mt-0 gap-8 w-[90%]">
                 {features.map((feature) => (
                     <div
                         key={feature.title}
