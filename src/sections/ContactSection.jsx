@@ -10,7 +10,7 @@ const ContactSection = () => {
                 sub="Feel free to reach out for projects"
             />
 
-            <p className="text-text-secondary bg-card p-3 md:p-8 text-center max-w-2xl mx-auto mt-8 rounded-xl card-border">
+            <p className="text-text-secondary bg-card p-3 md:p-8 text-center max-w-[90%] md:max-w-2xl mx-auto mt-8 rounded-xl card-border">
                 Are you in search of a talented frontend developer to bring your
                 ideas to life? Look no further! I'm William, and I specialize in
                 crafting engaging and user-friendly web applications.
