@@ -82,21 +82,7 @@ const projects = [
         githubUrl: 'https://github.com/WilliamMattsson1/ecom-fullstack',
         liveUrl: 'https://ecom-fullstack-pxw8.onrender.com/'
     },
-    {
-        title: 'Coincheck',
-        thumbnail: '/images/projectImages/coin-check-thumbnail.png',
-        stack: [
-            'Vue.js',
-            'Vite',
-            'Bootstrap',
-            'API',
-            'Chart.js',
-            'SPA',
-            'Design'
-        ],
-        githubUrl: 'https://github.com/WilliamMattsson1/Labb1Vue',
-        liveUrl: 'https://coincheck.netlify.app/'
-    },
+
     {
         title: 'Coincompass',
 
@@ -114,7 +100,23 @@ const projects = [
     }
 
     // Old projects
-    /*  {
+    /*
+    {
+        title: 'Coincheck',
+        thumbnail: '/images/projectImages/coin-check-thumbnail.png',
+        stack: [
+            'Vue.js',
+            'Vite',
+            'Bootstrap',
+            'API',
+            'Chart.js',
+            'SPA',
+            'Design'
+        ],
+        githubUrl: 'https://github.com/WilliamMattsson1/Labb1Vue',
+        liveUrl: 'https://coincheck.netlify.app/'
+    },
+    {
         title: 'Blackjack',
         thumbnail: '/images/projectImages/blackjack-crossPlattform.png',
         stack: ['Javascript', 'CSS', 'HTML', 'Dynamic'],
