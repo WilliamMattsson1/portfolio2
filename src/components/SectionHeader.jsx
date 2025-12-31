@@ -12,10 +12,14 @@ const SectionHeader = ({ title, sub, highlightWord }) => {
 
     return (
         <div className="flex flex-col items-center gap-1">
-            <h2 className="font-medium md:text-4xl text-2xl">{titleParts}</h2>
+            <h2 className="font-bold md:text-4xl text-2xl tracking-wide">
+                {titleParts}
+            </h2>
             {sub && (
                 <div>
-                    <p className="text-lg md:text-2xl font-extralight">{sub}</p>
+                    <p className="text-lg md:text-2xl font-extralight mt-1">
+                        {sub}
+                    </p>
                 </div>
             )}
         </div>

@@ -8,14 +8,14 @@ const HeroSection = () => {
             <div className="hero-layout">
                 <div className="text-section flex md:flex-1 flex-col">
                     <div className="hero-text ">
-                        <p className="text-[34px] font-normal ">
+                        <p className="text-[38px] font-normal">
                             Hey, <span className="text-accent">I'm</span>
                         </p>
-                        <h1 className="">
+                        <h1 className="tracking-wide md:text-5xl text-4xl font-bold mt-2">
                             <span className="text-accent">William</span>{' '}
                             Mattsson
                         </h1>
-                        <p className="text-[28px] md:text-[40px]  font-semibold">
+                        <p className="text-[38px] font-semibold mt-2">
                             <TypeAnimation
                                 sequence={sequence}
                                 wrapper="span"

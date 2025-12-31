@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
@@ -17,7 +19,7 @@ body {
     background-color: var(--color-bg);
     scroll-behavior: smooth;
     color: var(--color-text);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', sans-serif;
 }
 
 section {
@@ -88,5 +90,9 @@ section {
 
     .card-border {
         @apply border border-gray-700 bg-card;
+    }
+
+    .font-chonburi {
+        font-family: 'Chonburi', cursive;
     }
 }
