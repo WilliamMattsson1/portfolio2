@@ -69,6 +69,21 @@ const showcaseTabs = [
 
 const projects = [
     {
+        title: 'Pilates Studio',
+        thumbnail: 'images/projectImages/pilates-thumbnail.png',
+        stack: [
+            'Fullstack',
+            'Next.js 16',
+            'React',
+            'TypeScript',
+            'Tailwind CSS',
+            'Stripe',
+            'Supabase'
+        ],
+        githubUrl: 'https://github.com/WilliamMattsson1/pilates-studio',
+        liveUrl: 'https://pilates-studio-xi.vercel.app/'
+    },
+    {
         title: 'Williams Clothing',
         thumbnail: 'images/projectImages/williamsclothing-thumbnail.png',
         stack: [
